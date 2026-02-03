@@ -1,5 +1,26 @@
-streamlit==1.38.0
-yfinance==0.2.40
-pandas==2.2.3
-numpy==1.26.4
-plotly==5.24.1
+# Momentum Forge - Institutional Backtesting Platform
+# =====================================================
+
+# Web Framework
+streamlit>=1.38.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.11.0
+
+# Financial Data
+yfinance>=0.2.40
+
+# Visualization
+plotly>=5.18.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Type Hints
+typing-extensions>=4.8.0
+
+# Utilities
+python-dateutil>=2.8.0
