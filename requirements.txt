@@ -1,5 +1,36 @@
-streamlit==1.38.0
-yfinance==0.2.40
-pandas==2.2.3
-numpy==1.26.4
-plotly==5.24.1
+# D5 Robust Master - Requirements
+# Institutional Trading Strategy Validation Platform
+
+# Backend - FastAPI
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0
+
+# Frontend - Streamlit
+streamlit>=1.38.0
+
+# HTTP Client
+requests>=2.31.0
+httpx>=0.25.0
+
+# Data Processing
+pandas>=2.2.3
+numpy>=1.26.4
+plotly>=5.24.1
+
+# Finance Data (optional)
+yfinance>=0.2.40
+
+# Database (SQLite - built-in, no extra deps needed)
+
+# Utilities
+python-multipart>=0.0.6
+python-dotenv>=1.0.0
+
+# Async Support
+aiofiles>=23.2.0
+anyio>=4.0.0
+
+# Development
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
